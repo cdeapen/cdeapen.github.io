@@ -21,4 +21,3 @@
         <a-camera gps-camera rotation-reader></a-camera>
 	</a-scene><a-entity gltf-model="./assets/magnemite/scene.gltf" rotation="0 180 0" scale="0.15 0.15 0.15" gps-entity-place="longitude: -97.844610; latitude: 30.130810;" animation-mixer/>
 </body>
-./run.sh
