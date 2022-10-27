@@ -16,8 +16,7 @@
     <a-scene
         vr-mode-ui="enabled: false"
 		embedded
-        arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
+        arjs='sourceType: webcam; sourceWidth:5994; sourceHeight:3406; displayWidth: 5994; displayHeight: 3406; debugUIEnabled: false;'>
         
         <a-camera gps-camera rotation-reader></a-camera>
-	</a-scene><a-entity gltf-model="./assets/magnemite/scene.gltf" rotation="0 180 0" scale="0.025 0.025 0.025" gps-entity-place="longitude: -97.844610; latitude: 30.130810;" animation-mixer/>
-</body>
+	</a-scene><a-image src="./assets/main_rebuild.jpg" look-at="[gps-camera]" gps-entity-place="simulateLongitude: -97.756170; simulateLatitude: 30.230850;" />
